@@ -1,0 +1,32 @@
+# Streamlit secrets — real token ignored, example kept for reference
+.streamlit/*
+!.streamlit/secrets.toml.example
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Testing
+.pytest_cache/
+
+# Environment files (local only)
+.env
+.env.*
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE folders
+.idea/
+.vscode/
